@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://somoswilsonymaria.site/sitemap.xml
