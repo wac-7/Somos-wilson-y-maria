@@ -1,0 +1,26 @@
+:root{--noche:#0e1b3a;--azul:#1d3a6e;--cielo:#a9cdf0;--oro:#f0b94a;--perla:#f6f8fc;--tinta:#1a2540}
+*{box-sizing:border-box}
+body{margin:0;background:var(--perla);color:var(--tinta);font:400 17px/1.6 Nunito,system-ui,sans-serif}
+h2{font-family:'Cormorant Garamond',serif}
+#modBox{max-width:640px;margin:0 auto;padding:20px 16px 40px}
+#modBox .volver{display:block;text-align:center;margin-top:26px;color:#6b7a99;font-weight:800;font-size:.9rem;text-decoration:none}
+#modBox .mtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+#modBox h2{font-size:2rem;color:var(--noche);margin:0}
+#modBox .mx{background:none;border:0;color:var(--azul);font:800 .95rem Nunito,sans-serif;cursor:pointer}
+#modBox input{width:100%;padding:12px 13px;border-radius:12px;border:1.5px solid #cfdaee;background:#fff;color:var(--tinta);font:600 1rem Nunito,sans-serif;margin-bottom:10px}
+#modBox .mp{text-align:center;color:#4a5b80;margin:14px 0}
+#modBox .merr{color:#b3261e;font-weight:700;font-size:.85rem;margin:8px 0}
+#modBox .mbtn{width:100%;background:var(--azul);color:#fff;border:0;border-radius:99px;padding:13px;font:800 1rem Nunito,sans-serif;cursor:pointer}
+#modBox .mtabs{display:flex;background:#e4effb;border-radius:99px;padding:4px;margin:6px 0 14px}
+#modBox .mtabs button{flex:1;border:0;background:none;border-radius:99px;padding:10px;font:800 .85rem Nunito,sans-serif;color:var(--azul);cursor:pointer}
+#modBox .mtabs button.on{background:var(--oro);color:var(--noche)}
+#modBox .mm{background:#fff;border-radius:14px;padding:14px;margin-bottom:10px;overflow-wrap:anywhere}
+#modBox .mm.oracion{background:#fff4dc}
+#modBox .mm .mt{font-size:.82rem}
+#modBox .mm .mt b{color:var(--azul);font-weight:800}
+#modBox .mm .mt time{font-size:.7rem;color:#6b7a99;margin-left:6px}
+#modBox .mm p{margin:8px 0;font-size:1rem;line-height:1.4}
+#modBox .mf{display:flex;gap:10px}
+#modBox .mf button{flex:1;border:0;border-radius:99px;padding:10px;font:800 .88rem Nunito,sans-serif;cursor:pointer;color:var(--noche)}
+#modBox .ok{background:var(--oro)}#modBox .del{background:#fde4e4;color:#b3261e!important}
+#modBox .salir{display:block;margin:22px auto 0;background:none;border:0;color:#6b7a99;font:800 .9rem Nunito,sans-serif;cursor:pointer}
