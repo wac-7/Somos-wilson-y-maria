@@ -1,5 +1,5 @@
 /* ENLACES: pega aquí cada URL. Si queda vacío, el botón muestra "Muy pronto". */
-const LINKS={tiktokDevocionales:"https://www.tiktok.com/@somoswilsonymaria",podcast:"https://open.spotify.com/show/0TnAnWImwVjspwF79HNyi2",youtube:"https://www.youtube.com/@somos-wilsonymaria",tiktokLives:"https://www.tiktok.com/@somoswilsonymaria",playLibros:"https://play.google.com/store/books/details?id=pcvbEAAAQBAJ",appleLibros:"",amazon:"https://a.co/d/02ueAosJ",gup:"https://generaciondeuncionypoder.somoswilsonymaria.site",alfarero:"https://manosdealfarero.somoswilsonymaria.site/",appAndroid:"",appIos:"",creacion:"https://creaciondigital.somoswilsonymaria.site/"};
+const LINKS={tiktokDevocionales:"https://youtube.com/playlist?list=PLJH8oc8di660&si=cRu4bDSjBlvc5cAb",podcast:"https://open.spotify.com/show/0TnAnWImwVjspwF79HNyi2",youtube:"https://www.youtube.com/@somos-wilsonymaria",tiktokLives:"https://www.tiktok.com/@somoswilsonymaria",playLibros:"https://play.google.com/store/books/details?id=pcvbEAAAQBAJ",appleLibros:"",amazon:"https://a.co/d/02ueAosJ",gup:"https://generaciondeuncionypoder.somoswilsonymaria.site",alfarero:"https://manosdealfarero.somoswilsonymaria.site/",appAndroid:"",appIos:"",creacion:"https://creaciondigital.somoswilsonymaria.site/"};
 /* DATOS DE CONTACTO: cambia estos valores */
 const CONTACTO={email:"wac11mmd@gmail.com",whatsapp:"",telefono:""};
 /* RADIO: URL de la grabación (mp3). Vacío = Muy pronto */
@@ -10,7 +10,7 @@ const RADIO_SRC=RADIO_BASE+"/stream";
 const PROGRAMACION=[
  {nombre:"Devocional de la mañana",hora:"06:00",dur:60,dias:[1,2,3,4,5,6]},
  {nombre:"Tiempo de Peticiones y Milagros",hora:"20:00",dur:60,dias:[5]},
- {nombre:"Pan del cielo - Predicas",hora:"15:00",dur:60,dias:[2,4]},
+ {nombre:"Pan del cielo - Predicas",hora:"15:00",dur:60,dias:[4]},
  {nombre:"Repetición - devocional de la mañana",hora:"09:00",dur:60,dias:[1,2,3,4,5,6]}
 ];
 
