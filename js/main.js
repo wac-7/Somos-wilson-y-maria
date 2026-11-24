@@ -3,7 +3,7 @@ const LINKS={tiktokDevocionales:"https://youtube.com/playlist?list=PLJH8oc8di660
 /* DATOS DE CONTACTO: cambia estos valores */
 const CONTACTO={email:"wac11mmd@gmail.com",whatsapp:"",telefono:""};
 /* RADIO: URL de la grabación (mp3). Vacío = Muy pronto */
-const RADIO_BASE="https://pstnet4.shoutcastnet.com:40184";
+const RADIO_BASE="https://pstnet4.shoutcastnet.com:10274";
 const RADIO_SRC=RADIO_BASE+"/stream";
 /* HORARIO: dias 0=Dom 1=Lun 2=Mar 3=Mié 4=Jue 5=Vie 6=Sáb · hora 24h de Colombia · dur = duración en minutos (si no la pones, 60).
    Mientras un programa esté dentro de su horario, aparece arriba en "Sonando ahora". Cámbialo por tus programas reales. */
